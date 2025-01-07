@@ -9,6 +9,7 @@ umask 022
 # echo before loading util_functions
 ui_print() { echo "$1"; }
 
+zfont 3
 require_new_magisk() {
   ui_print "*******************************"
   ui_print " Please install Magisk v20.4+! "
